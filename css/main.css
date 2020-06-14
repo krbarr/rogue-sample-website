@@ -1,0 +1,85 @@
+/***** BASE STYLES *****/
+body {
+font-family: 'Montserrat', sans-serif;
+color: black;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header h1 { 
+    padding: 65px 0 65px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+span {
+    color: #77a466;
+} 
+nav {
+    float: right; 
+    padding: 75px 0 0 0;
+    word-spacing: 25px;
+}
+nav ul li{
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466; 
+}
+.vegetables {
+    padding: 20px;
+    border: 20px solid #77a466;
+}
+
+/***** MAIN *****/
+main h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 15px 0 15px 0;
+    color: #77a466;
+    text-transform: uppercase;
+}
+p {
+    line-height: 25px;
+}
+main h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+main ul {
+    color: #77a466;
+    list-style: none;
+    padding: 10px 0 0 0;
+}
+main li {
+    padding: 0 0 15px 0;
+}
+
+/***** FOOTER *****/
+footer h2 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+}
